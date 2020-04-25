@@ -3,11 +3,235 @@ body, html{
   margin: 0px;
 }
 
+p{
+  font-size: 20px !important;
+}
 
-#map{
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header{
   width: 100vw !important;
   height: 100vh !important;
+}
+
+#map{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100% !important;
+  height: 100% !important;
   display: block;
   margin: 0px;
   padding: 0px;
+}
+
+.headerContent {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.headerTop{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 25px;
+}
+
+.headerTop img{
+  width: 50px;
+}
+
+.headerMid{
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 100px;
+  color: white;
+  margin-top: -102px;
+}
+
+.headerMid h1{
+  margin-bottom: 20px;
+
+}
+
+.headerMid h3{
+  margin-bottom: 20px;
+}
+
+.button{
+  width: 250px;
+  background-color: #FB5B5B;
+  color: white;
+  padding: 15px 0px !important;
+}
+
+.buttonSurvey{
+  background-color: #1D1131;
+}
+
+
+/* Survey */
+
+#survey h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#survey div {
+    line-height: 2;
+}
+
+#survey p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#survey img {
+    height: 395px;
+    width: 434.56px;
+}
+
+.section-margin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* What we offer */
+
+#offer {
+    min-height: 90vh;
+}
+
+#offer {
+    line-height: 3;
+}
+
+#offer .mb-4{
+  margin-bottom: 5rem !important;
+}
+
+#offer p {
+    font-weight: 500;
+    color: white;
+    line-height: normal;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+
+#offer h2 {
+    color: white;
+}
+
+#offer {
+    background-color: #1D1131;
+}
+
+#offer h2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#offer img {
+    width: 20rem;
+    height: 20rem;
+}
+
+#logo {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+#offer .btn {
+    padding: .5rem 5rem;
+}
+
+/* Newsletter */
+
+.bg-danger {
+    background-color: #FB5B5B !important;
+}
+
+.bg-dark {
+    background-color: #1D1131 !important;
+}
+
+#newsletter{
+  padding: 10vh 0px !important;
+}
+
+#newsletter h2{
+    color: white;
+}
+
+#newsletter p {
+    color: white;
+    font-weight: 500;
+    padding: 0px 30px;
+}
+
+#newsletter form {
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+
+}
+
+#newsletter input{
+  width: 300px;
+  margin-right: 20px;
+}
+
+#newsletter h3 {
+    font-size: 1.5rem;
+}
+
+#newsletter .form-control {
+    color: white !important;
+    background-color: #C64545;
+    border-color: #C64545;
+    font-weight: 500;
+
+}
+
+#newsletter .form-group{
+  margin: auto !important;
+}
+
+
+.form-control::placeholder {
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+  #offer h2{
+    margin-top: 5rem !important;
+  }
+  .hideMobile{
+    display: none !important;
+  }
+
+  #newsletter .form-group {
+    width: 100%;
+}
+  #newsletter input{
+    width: 100%;
+    margin: 0px !important;
+    margin-bottom: 2rem !important;
+  }
 }
